@@ -12,6 +12,6 @@ class Main {
         }
         Collections.reverse(names);
         names.forEach(System.out::println);
-
+        scanner.close();
     }
 }
