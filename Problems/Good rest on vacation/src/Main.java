@@ -6,6 +6,7 @@ class Main {
         Vacation vacation = new Vacation(scanner.nextInt(), scanner.nextInt(),
                 scanner.nextInt(), scanner.nextInt());
         System.out.println(vacation.calculatePrice());
+        scanner.close();
     }
 
     private static class Vacation {
